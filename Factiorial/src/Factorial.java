@@ -25,6 +25,10 @@ public class Factorial {
     public static int beregn6 (int x) {
         return 1000;
     }
-
+    int resultat = 1;
+        for (int b = 1; b <= 5; b++) {
+            resultat = resultat * b;
+            System.out.println(resultat);
+        }
 
 }
